@@ -1,0 +1,132 @@
+.section-team {
+    padding: 24px 0 38px;
+}
+
+.section-team__page-width {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-content {
+    padding: 0 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-content__subtitle h6 {
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.main-content__title h3 {
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.main-content__description p {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.list-users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.user-card {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 22.5px);
+    border-radius: 20px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.user-card .user-card__image {
+    display: flex;
+    width: 100%;
+}
+
+.user-card .user-card__image img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.user-card__information {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-card__information .user-card__information--name h5 {
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.user-card__information .user-card__information--position p {
+    color: #737373;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.user-card__information .user-card__information--socials {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__facebook, .socials__instagram, .socials__twitter {
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .user-card {
+        flex-basis: calc(50% - 15px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-team__page-width {
+        gap: 30px;
+    }
+
+    .list-users {
+        gap: 20px;
+    }
+
+    .user-card__information {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .user-card {
+        flex-basis: 100%;
+    }
+}

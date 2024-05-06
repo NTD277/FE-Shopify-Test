@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "team_section_zMbQ3m": {
+      "type": "team-section",
+      "blocks": {
+        "card_wDq8Ac": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-1.png",
+            "name": "Julian Jameson",
+            "position": "Profession",
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        },
+        "card_wKcq8b": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-1.png",
+            "name": "Julian Jameson",
+            "position": "Profession",
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        },
+        "card_KMweMM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-1.png",
+            "name": "Julian Jameson",
+            "position": "Profession",
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        },
+        "card_DGHm4F": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-1.png",
+            "name": "Julian Jameson",
+            "position": "Profession",
+            "facebook": "",
+            "instagram": "",
+            "twitter": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_wDq8Ac",
+        "card_wKcq8b",
+        "card_KMweMM",
+        "card_DGHm4F"
+      ],
+      "settings": {
+        "sub_title": "Team",
+        "title": "Get Quality Education",
+        "description": "<p>Problems trying to resolve the conflict between <br\/>the two major realms of Classical physics: Newtonian mechanics <\/p>"
+      }
+    }
+  },
+  "order": [
+    "team_section_zMbQ3m"
+  ]
+}
