@@ -3,7 +3,7 @@
     "team_section_zMbQ3m": {
       "type": "team-section",
       "blocks": {
-        "card_wDq8Ac": {
+        "card_wKcq8b": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/user-cover-1.png",
@@ -14,7 +14,7 @@
             "twitter": "https:\/\/twitter.com"
           }
         },
-        "card_wKcq8b": {
+        "card_wDq8Ac": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/user-cover-2.png",
@@ -49,8 +49,8 @@
         }
       },
       "block_order": [
-        "card_wDq8Ac",
         "card_wKcq8b",
+        "card_wDq8Ac",
         "card_KMweMM",
         "card_DGHm4F"
       ],
