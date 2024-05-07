@@ -29,7 +29,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0.1px;
+    letter-spacing: -.3px;
     margin: 0;
 }
 
@@ -38,7 +38,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     margin: 0;
 }
 
@@ -50,6 +50,8 @@
 }
 
 .user-card {
+    display: flex;
+    flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(25% - 22.5px);
@@ -60,6 +62,12 @@
 .user-card .user-card__image {
     display: flex;
     width: 100%;
+    height: 100%;
+}
+
+.user-card .user-card__image .placeholder-svg {
+    width: 100%;
+    height: 100%;
 }
 
 .user-card .user-card__image img {
@@ -80,7 +88,7 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.1px;
+    letter-spacing: -.3px;
     margin: 0;
 }
 
@@ -101,7 +109,9 @@
     align-items: center;
 }
 
-.socials__facebook, .socials__instagram, .socials__twitter {
+.socials__facebook a,
+.socials__instagram a,
+.socials__twitter a {
     display: flex;
 }
 
